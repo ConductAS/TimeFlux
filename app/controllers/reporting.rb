@@ -15,7 +15,7 @@ module Reporting
 
     @years = (2007..Date.today.year).to_a.reverse
     @months = []
-    @month_names = %w{ January Febrary March April May June July August September October November December}
+    @month_names = %w{ January February March April May June July August September October November December}
     @month_names.each_with_index { |name, i| @months << [ i+1, name ] }
   end
 
